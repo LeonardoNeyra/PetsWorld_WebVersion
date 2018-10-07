@@ -1,0 +1,330 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import url(menu.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    float: left;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+        
+}
+
+#nos {
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 11px;
+    text-align: center;
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+footer {
+    background-color: white;
+}
+
+/*------------MENU------------*/
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .contenedor {
+    display: table;
+}
+
+/*-----baneranimado----------*/
+
+section#general {
+    margin: 0px;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../img/Cat-and-Dog-16-Cool-Wallpaper-HD.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+section#body {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+section#scrolldown {
+    margin: auto;
+    width: 200px;
+    height: 60px;
+}
+
+p#tit {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: white;
+}
+
+p#mayor {
+    -webkit-transform: rotate(270deg);
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+section#sect {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    background-color: white;
+}
+/*------------GENERAL------------
+
+#general {
+    margin-top: 50px;
+    position: relative;
+}
+
+#general img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    #general {
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    #general img {
+        height: auto;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #general img {
+        margin-top: -200px;
+    }
+}
+
+/*------------INFORMACION------------*/
+
+
+#informacion img {
+    width: 100%;
+    max-width: 400px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+#informacion p{
+    max-width: 400px;
+    text-align: justify;
+    margin-bottom: 90px;
+}
+
+#informacion .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#informacion article{
+    margin: 15px;
+}
+
+#informacion img {
+    border-radius: 12px;
+}
+
+/*------------GRUPO------------
+
+#team h4 {
+    text-align: center;
+    max-width: 360px;
+}
+
+#team img {
+    width: 100%;
+    max-width: 360px;
+    height: 300px;
+}
+
+#team .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#team img {
+    border: 3px solid darkblue;
+    border-radius: 10px;
+}
+
+#team #nos {
+    margin-top: 20px;
+}
+
+.alumnos {
+    margin: 20px;
+}
+
+@media (min-width: 480px) {
+    .alumnos {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .alumnos {
+        max-width: 4000px;
+    }
+}
+
+/*------------SOCILAES------------*/
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
+
+/************our*************/
+
+.our {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    -webkit-perspective: 700;
+}
+
+.carta {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1.5s;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.carta:hover {
+    transform: rotateY(180deg);
+}
+
+.lado {
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.atras {
+    background: #f0f0f0;
+    transform: rotateY(180deg);
+}
+
+.zhy {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.per {
+    text-align: center;
+    padding: 5px;
+}
+
+.per:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.social {
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    justify-content: center;
+    padding: 1px 100px;
+}
+
+#ke {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.ico {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.ico img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+

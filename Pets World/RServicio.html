@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <title>Pet's World</title>
+        <meta charset="utf-8">
+        <meta name="viewposrt" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/estiloMenu.css">
+        <link rel="stylesheet" href="css/estilosRServicios.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1 class="icon-dog">Pet's World</h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="ingreso.html">Entrar</a>
+                    <a href="conocemos.html">Conócenos</a>
+                    <a href="contacto.html">Contáctenos</a>
+                    <a href="servicios.html">Servicios</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <div class="contenedor gat">
+               <img src="img/cat6.png" alt="kha">
+            </div>
+            <h2 class="contenedor justificado">Regístrate en Nuestro Servicio</h2>
+            <section class="col-md-5 col-md-offset-1">
+                <section class="cont-more txt">
+                    <p>Escriba los datos sobre la mascota que va a dejar a nuestro cuidado:</p>
+                </section>
+                <section class="cont-more">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input class="form-control" type="text" placeholder="Nombre" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="opcion">Mascota:</label>
+                            <select class="form-control" name="" id="opcion">
+                                <option value="">Gato</option>
+                                <option value="">Perro</option>
+                                <option value="">Dinosaurio</option>
+                                <option value="">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="opcion">Raza:</label>
+                            <select class="form-control" name="" id="opcion">
+                                <option value="">Pitbul</option>
+                                <option value="">Toyger</option>
+                                <option value="">Chusco</option>
+                                <option value="">Chusco</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Enfermedades:</label>
+                            <textarea class="form-control" id="mensaje" placeholder="Escribe sus Enfermedades"></textarea>
+                        </div>
+                    </form>
+                </section>
+            </section>
+            <section class="col-md-5 cont-more">
+                <section class=" txt">
+                    <p>Esbriba los datos de usted para poder contactarlo en cualquier momento:</p>
+                </section>
+                <section class="">
+                    <form class="form-horizontal" action="">
+                        <div class="form-group">
+                            <label class="control-label col-md-2" for="nombre">Nombre Completo:</label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" placeholder="Nombre Completo" id="nombre">
+                            </div>                        
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <label class="control-label" for="entrada">Fecha Entrada:</label>
+                                <input class="form-control" name="entrada" type="date">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="control-label" for="salida">Fecha Salida:</label>
+                                <input class="form-control" name="salida" type="date">
+                            </div>
+                        </div>                    
+                        <div class="form-group">
+                            <label class="control-label col-md-2" for="movil">Móvil o Teléfono:</label>
+                            <div class=" col-md-10">
+                                <input class="form-control" type="text" placeholder="Celular" id="movil">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-2" for="dir">Dirección:</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Dirección" id="dir">
+                            </div>
+                        </div>                    
+                    </form>
+                </section>
+            </section>
+            <section>
+                <div class="form-group">
+                         <form class="ultim">
+                             <div class="checkbox col-md-12 cent">
+                                <div class="chbox">
+                                    <input type="checkbox" name="chbx" id="chbx1">
+                                    <label for="chbx1">Acepto Términos y Condiciones</label>
+                                </div>
+                                <a href="https://help.netflix.com/legal/termsofuse?locale=es&docType=termsofuse" class="help-block nada" target="_blank">Leer Términos y Condiciones</a>
+                            </div> 
+                         </form>
+                                                 
+                </div>
+                <div class="form-group">
+                       <div class="col-md-12 cent">
+                         <a href="" class="btn btn-primary">Continuar</a>
+                       </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="contenedor xd">
+                <p class="copy">Pet's World &copy; 2016</p>
+                <div class="sociales">
+                    <a class="icon-facebook" href="http://www.facebook.com" target="_blank"></a>
+                    <a class="icon-twitter" href="http://www.twitter.com" target="_blank"></a>
+                    <a class="icon-instagram" href="https://www.instagram.com" target="_blank"></a>
+                    <a class="icon-googleplus" href="http://www.google.com" target="_blank"></a>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

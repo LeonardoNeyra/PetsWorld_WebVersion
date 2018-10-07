@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    float: left;
+    margin: 5px;
+}
+
+body {
+    margin: 0px;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+@media (min-width: 1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+footer {
+    background-color: white;
+}
+
+.nos {
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 11px;
+    text-align: center;
+}
+
+
+
+.ico {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ico-mas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.ico img {
+    width: 80px;
+    height: 80px;
+}
+
+.ico-mas img {
+    width: 80px;
+    height: 80px;
+}
+
+/*-----baneranimado----------*/
+
+section#general {
+    margin: 0px;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../img/wallpaper-de-un-perro-lamiendo-un-gato-tierno.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+section#body {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+section#scrolldown {
+    margin: auto;
+    width: 200px;
+    height: 60px;
+}
+
+p#tit {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: white;
+}
+
+p#mayor {
+    -webkit-transform: rotate(270deg);
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+section#sect {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    background-color: white;
+}
+
+/*------------SOCILAES------------*/
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+/*------------body------------*/
+
+.justificado {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.imag {
+    border-radius: 12px;
+    border: 1px solid blue;
+    width: 230px;
+    height: 230px;
+}
+
+/*------------cuidador1------------*/
+
+div#image {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/cuidador1.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    margin: 40px;
+}
+
+
+div.inf {
+    position: absolute;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(31,31,31,0.5);
+    -webkit-transition: opacity 0.2s;
+    opacity: 0;
+}
+
+div#image:hover div.inf {
+    opacity: 1;
+    cursor: pointer;
+}
+
+p.headline {
+    position: absolute;
+    margin-top: 20px;
+    -webkit-transition: margin 0.2s;
+    margin-left: -70px;
+    font-size: 21px;
+}
+
+div#image:hover p.headline {
+    margin-left: 120px;
+}
+
+p.inf2 {
+    margin: auto;
+    width: 270px;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    margin-top: 320px;
+}
+
+div#image:hover p.inf2 {
+    margin-top: 70px;
+    
+}
+
+div#image p{
+    color: white;
+}
+
+/*------------cuidador2------------*/
+
+div#image2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/cuidador2.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    margin: 40px;
+}
+
+div#image2:hover div.inf {
+    opacity: 1;
+    cursor: pointer;
+}
+
+div#image2:hover p.headline {
+    margin-left: 110px;
+}
+
+div#image2:hover p.inf2 {
+    margin-top: 70px;
+    
+}
+
+div#image2 p{
+    color: white;
+}
+
+/*------------cuidador3------------*/
+
+div#image3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/cuidador3.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    margin: 40px;
+}
+
+div#image3:hover div.inf {
+    opacity: 1;
+    cursor: pointer;
+}
+
+div#image3:hover p.headline {
+    margin-left: 60px;
+}
+
+div#image3:hover p.inf2 {
+    margin-top: 70px;
+    
+}
+
+div#image3 p{
+    color: white;
+}
+
+/*------------cuidador4------------*/
+
+div#image4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/cuidador4.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    margin: 40px;
+}
+
+div#image4:hover div.inf {
+    opacity: 1;
+    cursor: pointer;
+}
+
+div#image4:hover p.headline {
+    margin-left: 110px;
+}
+
+div#image4:hover p.inf2 {
+    margin-top: 70px;
+    
+}
+
+div#image4 p{
+    color: white;
+}
+
+/*------------cuidador5------------*/
+
+div#image5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/veterinario1.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    margin: 40px;
+}
+
+div#image5:hover div.inf {
+    opacity: 1;
+    cursor: pointer;
+}
+
+div#image5:hover p.headline {
+    margin-left: 110px;
+}
+
+div#image5:hover p.inf2 {
+    margin-top: 70px;
+    
+}
+
+div#image5 p{
+    color: white;
+}
+
+/******************************************/
+
+.khe {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+.vete {
+    text-align: center;
+}
